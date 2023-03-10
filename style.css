@@ -1,0 +1,86 @@
+/* 
+@font-face {
+    font-family: lovelace;
+    src: url(Lovelace/okay.otf);
+} 
+
+
+font-family: 'Dancing Script', cursive;
+font-family: 'Maven Pro', sans-serif; 
+*/
+
+body{
+    background-color: #fff8ed;
+}
+.firstpage{
+}
+
+div{
+    margin: 0;
+}
+
+.top{
+height: 100px;
+}
+
+.lovelace{
+
+    /* font-size: large; */
+    /* font-family: 'lovelace'; */
+
+    display: absolute;
+
+    margin: 0;
+
+    font-family: 'Dancing Script';
+
+    font-size: 100px;
+
+    font-weight: 10;
+
+}
+
+
+.maven{
+    margin: 0;
+    font-family: 'Maven Pro', sans-serif; 
+    font-size: 100px;
+    font-weight: 10;
+}
+
+.maven,.lovelace,.twenty {
+    padding-left: 100px;
+}
+
+.dancer{
+    width: 300px;
+    height: auto;
+    position: absolute;
+    right: 100px;
+    top: 100px;
+}
+.circle{
+
+    width: 100px;
+    height: 100px;
+    position: relative;
+    
+    filter: hue-rotate(200deg) opacity(50%);
+
+}
+
+.c1{
+    left: 100px;
+}
+
+.c2{
+    left: 300px;
+}
+
+.c3{
+    left: 500px;
+}
+
+.animate{
+
+}
